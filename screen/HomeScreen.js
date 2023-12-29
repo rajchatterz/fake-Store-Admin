@@ -8,7 +8,7 @@ const HomeScreen = ({ navigation }) => {
   return (
     <ImageBackground source={background} style={styles.container}>
       <Image style={{ width: 200, height: 200 }} source={require('../assets/cart.png')} />
-      <TouchableOpacity style={styles.button}>
+      <TouchableOpacity style={styles.button} onPress={()=>navigation.navigate('Product')}>
         <Text style={styles.buttonText}>Add Products</Text>
       </TouchableOpacity>
     </ImageBackground>

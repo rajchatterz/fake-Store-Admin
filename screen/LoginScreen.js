@@ -10,7 +10,7 @@ const LoginScreen = ({ navigation }) => {
 
   const fetchData = async () => {
     try {
-      let url = `http://192.168.106.43:3001/register/${email}`;
+      let url = `http://192.168.245.43:3001/register/${email}`;
       let response = await axios.get(url);
       let userData = response.data;
 

@@ -44,7 +44,7 @@ const SignUpScreen = ({ navigation }) => {
     }
   }
     const passDataToApi = async() => {
-      const url = 'http://192.168.106.43:3001/register/'
+      const url = 'http://192.168.245.43:3001/register/'
       const postData = await fetch(url, {
         method: 'POST',
         headers: {
