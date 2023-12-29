@@ -85,9 +85,7 @@ const ProductDetails = () => {
             />
           </Svg>
           <Text style={{ color: '#1ef51ef9',fontSize:18,fontWeight:'800',marginBottom:20 }}>Data Saved Successfully</Text>
-          <TouchableOpacity >
-            <Text style={styles.modalText}>Click here</Text>
-          </TouchableOpacity>
+          
         </View>
       </Modal>
     </ImageBackground>
