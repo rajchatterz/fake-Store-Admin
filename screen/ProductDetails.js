@@ -11,7 +11,7 @@ const ProductDetails = () => {
     const [showModal,setShowModal] = useState(false)
   const sendDataToApi = async () => {
     try {
-      const url = 'http://192.168.245.43:3001/admin';
+      const url = 'http://192.168.102.43:3001/admin';
       const productData = { name, price, color, image };
 
       const response = await fetch(url, {
